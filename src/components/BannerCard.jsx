@@ -1,7 +1,7 @@
 import React from "react";
-import Img1 from "./assets/snakeplant.jpg";
-import Img2 from "./assets/outdoor.jpg";
-import Img3 from "./assets/cactus cuver.jpg";
+import Img1 from "../assets/snakeplant.jpg";
+import Img2 from "../assets/outdoor.jpg";
+import Img3 from "../assets/cactus cuver.jpg";
 const BannerCard = () => {
   return (
     <div className="max-w-7xl mx-auto -mt-40 p-4">

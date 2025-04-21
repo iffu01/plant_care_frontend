@@ -1,12 +1,14 @@
-import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import Banner from "./Banner";
-import BannerCard from "./BannerCard";
-
+import { createBrowserRouter } from "react-router";
+import { RouterProvider } from "react-router";
+import HomePage from "./HomePage";
+const route = createBrowserRouter([
+  {
+    path: "/",
+    Component: HomePage,
+  },
+]);
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <Banner />
-    <BannerCard />
-  </StrictMode>
+  <RouterProvider router={route} />
 );

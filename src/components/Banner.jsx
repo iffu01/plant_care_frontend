@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "./assets/incover.jpg";
+import Img from "../assets/incover.jpg";
 const Banner = () => {
   return (
     <div
