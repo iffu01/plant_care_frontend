@@ -1,17 +1,12 @@
 @import "tailwindcss";
 
+.container {
+  @apply max-w-6xl mx-auto px-8;
+}
+.navLink {
+  @apply ml-2 font-semibold hover:text-orange-900 duration-300;
+}
 .btn-primary {
-  @apply bg-white text-green-900 font-semibold border-2 duration-300 cursor-pointer border-green-900 hover:bg-green-900 hover:text-white px-6 py-2;
-}
-
-.btn-secondary {
-  @apply bg-green-900 text-white font-semibold border-2 duration-300 cursor-pointer border-white hover:bg-white hover:text-green-900 px-6 py-2;
-}
-
-.banner-card {
-  @apply bg-no-repeat bg-cover hover:bg-cover hover:bg-center p-8 border border-gray-400 duration-500 hover:shadow-2xl;
-}
-
-.banner-card-title {
-  @apply text-4xl text-green-900 mb-4 mt-30 font-semibold bg-gray-50 p-2 opacity-80;
+  @apply px-8 py-2 rounded-3xl bg-orange-500 hover:bg-orange-400 
+  font-bold  text-white duration-300;
 }

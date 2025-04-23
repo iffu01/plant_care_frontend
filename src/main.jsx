@@ -1,14 +1,27 @@
+import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import { createBrowserRouter } from "react-router";
-import { RouterProvider } from "react-router";
-import HomePage from "./HomePage";
+
+import HomePage from "./page/HomePage";
+import { createBrowserRouter, RouterProvider } from "react-router";
+import AboutPage from "./page/AboutPage";
+import ContactPage from "./page/ContactPage";
+
 const route = createBrowserRouter([
   {
     path: "/",
-    Component: HomePage,
+    element: <HomePage />,
+  },
+  {
+    path: "/about-us",
+    element: <AboutPage />,
+  },
+  {
+    path: "/contact-us",
+    element: <ContactPage />,
   },
 ]);
+
 createRoot(document.getElementById("root")).render(
   <RouterProvider router={route} />
 );
