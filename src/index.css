@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .container {
-  @apply max-w-6xl mx-auto px-8;
+  @apply max-w-6xl mx-auto px-2;
 }
 .navLink {
   @apply ml-2 font-semibold hover:text-orange-900 duration-300;
