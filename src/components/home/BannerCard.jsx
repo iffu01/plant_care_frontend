@@ -11,8 +11,8 @@ const BannerCard = () => {
         <div>
           <h2 className="text-2xl font-bold mb-4">30% OFF ONLINE EXCLUSIVES</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus.
+            Lorem iffath ipsum dolor sit amet, consectetur adipiscing elit. Ut
+            elit tellus.
           </p>
           <button className="btn-primary mt-4">Contact Us</button>
         </div>
