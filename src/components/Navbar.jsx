@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between container py-3">
         <h2 className="font-bold text-2xl flex gap-2 items-center">
           <FaPaw className="-rotate-45" />
-          Pet Website
+          Paw Mart
         </h2>
         <ul className="flex gap-2 items-center">
           <li>
