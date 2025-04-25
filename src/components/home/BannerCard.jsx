@@ -2,6 +2,7 @@ import React from "react";
 
 import catImg from "../../assets/card/cat.png";
 import dogImg from "../../assets/card/dog.png";
+import { Link } from "react-router";
 
 const BannerCard = () => {
   return (
@@ -14,7 +15,9 @@ const BannerCard = () => {
             Lorem iffath ipsum dolor sit amet, consectetur adipiscing elit. Ut
             elit tellus.
           </p>
-          <button className="btn-primary mt-4">Contact Us</button>
+          <Link to="/contact-us">
+            <button className="btn-primary mt-4">Contact Us</button>
+          </Link>
         </div>
       </div>
       <div className="flex flex-col md:flex-row items-center bg-orange-300 rounded-lg p-4">
@@ -25,7 +28,9 @@ const BannerCard = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus.
           </p>
-          <button className="btn-primary mt-4">Contact Us</button>
+          <Link to="/contact-us">
+            <button className="btn-primary mt-4">Contact Us</button>
+          </Link>
         </div>
       </div>
     </div>

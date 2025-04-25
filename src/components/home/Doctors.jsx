@@ -4,6 +4,7 @@ import card1 from "../../assets/doctor1.jpg";
 import card2 from "../../assets/doctor2.jpg";
 import card3 from "../../assets/doctor3.jpg";
 
+import { Link } from "react-router";
 const Doctors = () => {
   return (
     <div className="container mt-8">
@@ -19,19 +20,25 @@ const Doctors = () => {
           <img src={card1} alt="" className="rounded-lg" />
           <h2 className="font-bold text-3xl my-4 text-center">Dr. John Doe</h2>
           <p className="text-center mb-4">(Vetenary)</p>
-          <button className="btn-primary">Contact Us</button>
+          <Link to="/contact-us">
+            <button className="btn-primary">Contact Us</button>
+          </Link>
         </div>
         <div className="flex flex-col items-center p-4 bg-gray-100 rounded-lg">
           <img src={card2} alt="" className="rounded-lg" />
           <h2 className="font-bold text-3xl my-4 text-center">Dr. Winslas</h2>
           <p className="text-center mb-4">(Vetenary)</p>
-          <button className="btn-primary">Contact Us</button>
+          <Link to="/contact-us">
+            <button className="btn-primary">Contact Us</button>
+          </Link>
         </div>
         <div className="flex flex-col items-center p-4 bg-gray-100 rounded-lg">
           <img src={card3} alt="" className="rounded-lg" />
           <h2 className="font-bold text-3xl my-4 text-center">Dr. Will Smit</h2>
           <p className="text-center mb-4">(Vetenary)</p>
-          <button className="btn-primary">Contact Us</button>
+          <Link to="/contact-us">
+            <button className="btn-primary">Contact Us</button>
+          </Link>
         </div>
       </div>
     </div>

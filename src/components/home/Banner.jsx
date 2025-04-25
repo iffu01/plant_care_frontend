@@ -1,5 +1,6 @@
 import React from "react";
 import bgImg from "../../assets/banner.jpg";
+import { Link } from "react-router";
 const Banner = () => {
   return (
     <div
@@ -16,7 +17,9 @@ const Banner = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
               tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
             </p>
-            <button className="btn-primary mt-8">Contact Us</button>
+            <Link to="/contact-us">
+              <button className="btn-primary mt-8">Contact Us</button>
+            </Link>
           </div>
         </div>
       </div>
