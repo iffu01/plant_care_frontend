@@ -1,22 +1,22 @@
 import React from "react";
 import { Link } from "react-router";
 import Navbar from "../components/Navbar";
-import bgImg from "../assets/doctors.jpg";
+import ContactInfo from "../components/contactUs/ContactInfo";
+import Banner from "../components/home/Banner";
+import ContactUsForm from "../components/contactUs/ContactUsForm";
+import Footer from "../components/Footer";
 const ContactPage = () => {
   return (
     <div>
       <Navbar />
-      <div
-        className="bg-no-repeat bg-cover"
-        style={{ backgroundImage: `url(${bgImg})` }}
-      >
-        <div className="h-[500px] flex  justify-center items-center ">
-          <div className="bg-white opacity-70 px-12 py-4">
-            <h1 className="font-bold text-5xl">Contact Us</h1>
-            <p>Lorem ipsum dolor sit amet.</p>
-          </div>
-        </div>
+      <Banner />
+      <div className="container my-20">
+        <ContactInfo />
       </div>
+      <div className="container my-20">
+        <ContactUsForm />
+      </div>
+      <Footer />
     </div>
   );
 };

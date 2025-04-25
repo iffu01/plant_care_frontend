@@ -5,7 +5,7 @@ import dogImg from "../../assets/card/dog.png";
 
 const BannerCard = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 container">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 container -mt-12">
       <div className="flex flex-col md:flex-row items-center bg-slate-300 rounded-lg p-4">
         <img src={catImg} alt="cat img" />
         <div>
