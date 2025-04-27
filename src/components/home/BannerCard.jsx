@@ -2,6 +2,7 @@ import React from "react";
 
 import catImg from "../../assets/card/cat.png";
 import dogImg from "../../assets/card/dog.png";
+import { Link } from "react-router";
 
 const BannerCard = () => {
   return (
@@ -10,22 +11,30 @@ const BannerCard = () => {
         <img src={catImg} alt="cat img" />
         <div>
           <h2 className="text-2xl font-bold mb-4">30% OFF ONLINE EXCLUSIVES</h2>
-          <p>
-            Lorem iffath ipsum dolor sit amet, consectetur adipiscing elit. Ut
-            elit tellus.
+          <p className="mb-5">
+            Unlock huge savings with Pawmart! Enjoy 30% OFF on exclusive pet
+            health services and products available only through our website.
+            Limited time offer — give your pet the best for less!
           </p>
-          <button className="btn-primary mt-4">Contact Us</button>
+          <Link to={"/contact-us"} className="btn-primary ">
+            Contact Us
+          </Link>
         </div>
       </div>
       <div className="flex flex-col md:flex-row items-center bg-orange-300 rounded-lg p-4">
         <img src={dogImg} alt="cat img" />
         <div>
-          <h2 className="text-2xl font-bold mb-4">30% OFF ONLINE EXCLUSIVES</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus.
+          <h2 className="text-2xl font-bold mb-4">
+            SAVE UP TO 30% ALL ACCECORIES
+          </h2>
+          <p className="mb-5">
+            Treat your pets and save big! Enjoy up to 30% OFF on all accessories
+            — from cozy beds to stylish collars. Shop now and give your furry
+            friends the comfort they deserve!
           </p>
-          <button className="btn-primary mt-4">Contact Us</button>
+          <Link to={"/contact-us"} className="btn-primary">
+            Contact Us
+          </Link>
         </div>
       </div>
     </div>

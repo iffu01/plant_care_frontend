@@ -5,7 +5,7 @@ import { Link, useLocation } from "react-router";
 const Navbar = () => {
   const { pathname } = useLocation();
   return (
-    <nav className=" bg-orange-400 sticky top-0 ">
+    <nav className=" bg-orange-400 sticky top-0 z-50">
       <div className="flex items-center justify-between container py-3">
         <h2 className="font-bold text-2xl flex gap-2 items-center">
           <FaPaw className="-rotate-45" />

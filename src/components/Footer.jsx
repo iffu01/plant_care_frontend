@@ -25,8 +25,10 @@ const Footer = () => {
             Paw Mart
           </h2>
           <p className="text-white mt-8">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore,
-            minima.
+            Welcome to Paw Mart — your one-stop shop for all things pet care!
+            From expert veterinary services to premium pet products, we’re
+            dedicated to keeping your furry friends happy, healthy, and full of
+            life.
           </p>
           <div className="flex  gap-4 mt-4 ">
             <Link to="https://www.facebook.com">
@@ -43,8 +45,9 @@ const Footer = () => {
         <div>
           <h2 className="text-white text-2xl font-bold mb-4">Openning Hours</h2>
           <p className="text-white mb-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
-            ipsum.
+            We're here when you need us! Visit us during our convenient opening
+            hours and give your pet the care they deserve. Check below for our
+            regular schedule, and book your appointment anytime online!
           </p>
           <p className="text-white flex items-center gap-2 mb-4">
             <FaDotCircle className="text-orange-400 " />
@@ -62,8 +65,10 @@ const Footer = () => {
         <div>
           <h2 className="text-white text-2xl font-bold mb-4">Contact Info</h2>
           <p className="text-white mb-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
-            ipsum.
+            Get in touch with us! Whether you have a question, need assistance,
+            or want to book an appointment, our team is here to help. Reach out
+            to us through the contact details below, and we'll get back to you
+            as soon as possible.
           </p>
           <p className="text-white flex items-center gap-2 mb-4">
             <FaLocationDot className="text-orange-400 " />

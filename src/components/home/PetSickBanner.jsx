@@ -11,14 +11,16 @@ const PetSickBanner = () => {
           Do pet have Allergies?
         </h2>
         <p className="text-white text-xl font-semibold my-8 md:w-1/2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-          reiciendis inventore unde minima nulla sequi magni ipsam fugiat
-          quaerat incidunt.
+          Yes, pets can have allergies! Just like humans, dogs and cats can
+          develop allergic reactions to various environmental factors, foods, or
+          even certain medications. These allergies can cause discomfort,
+          itching, and other health issues for your pet.
         </p>
         <p className="text-white text-xl md:w-1/2 ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-          reiciendis inventore unde minima nulla sequi magni ipsam fugiat
-          quaerat incidunt.
+          <b>What can you do?</b>What can you do? If you notice symptoms like excessive scratching,
+          sneezing, or digestive problems, it’s essential to consult with a vet.
+          At Pawmart, we help diagnose and treat your pet’s allergies so they
+          can feel their best again.
         </p>
       </div>
     </div>

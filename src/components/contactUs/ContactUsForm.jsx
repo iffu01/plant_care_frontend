@@ -7,9 +7,9 @@ const ContactUsForm = () => {
         Send Us message
       </h2>
       <p className="text-center text-lg text-gray-600">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint quod
-        praesentium nam expedita cupiditate blanditiis laboriosam aut provident
-        quam eos.
+        Have questions or need assistance? We’re here to help! Send us a
+        message, and our friendly team will get back to you as soon as possible
+        to provide the support your pet deserves.
       </p>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-12">
