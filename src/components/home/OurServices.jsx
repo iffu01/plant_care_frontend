@@ -18,7 +18,7 @@ const OurServices = () => {
         like family.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
-        <div className="flex flex-col items-center p-4 bg-gray-100 rounded-lg">
+        <div className="flex flex-col items-center  p-4 bg-gray-100 rounded-lg">
           <img src={card1} alt="" className="rounded-lg" />
           <h2 className="font-bold text-3xl my-4 text-center">Pet medical</h2>
           <p className="text-center mb-4">
@@ -39,7 +39,7 @@ const OurServices = () => {
             regular checkups to specialized treatments, our expert veterinarians
             are here to keep your pets healthy, happy, and full of life.
           </p>
-          <Link to={"/contact-us"} className="btn-primary">
+          <Link to={"/contact-us"} className="btn-primary mt-6">
             Contact Us
           </Link>
         </div>

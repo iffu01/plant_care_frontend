@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router";
 import Navbar from "../components/Navbar";
 import ContactInfo from "../components/contactUs/ContactInfo";
@@ -11,6 +11,7 @@ const ContactPage = () => {
     <div>
       <Navbar />
       <ContactBanner />
+
       <div className="container my-20">
         <ContactInfo />
       </div>
