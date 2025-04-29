@@ -1,4 +1,8 @@
 @import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark;
+  themes: light --default;
+}
 
 .container {
   @apply max-w-6xl mx-auto px-2;
@@ -7,6 +11,6 @@
   @apply ml-2  font-bold hover:text-black duration-300;
 }
 .btn-primary {
-  @apply px-8 py-3 rounded-xl bg-orange-500 hover:bg-orange-400 
+  @apply px-8 py-3 rounded-xl bg-orange-500 hover:bg-black hover:text-white
   font-bold  text-white duration-300;
 }
